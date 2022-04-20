@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "Raleway";
+  src: url("./Raleway-VariableFont_wght.ttf") format("truetype-variations");
+  font-weight: 1 999;
+}
+
+@font-face {
+  font-family: "Mont-Black";
+  src: url("./Montserrat-Black.ttf");
+}
+
+@font-face {
+  font-family: "Mont-Light";
+  src: url("./Montserrat-Light.ttf");
+}
+
+@font-face {
+  font-family: "Mont-Medium";
+  src: url("./Montserrat-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Mont-ExtraBold";
+  src: url("./Montserrat-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: "Atomic";
+  src: url("./aAtomicMd.ttf");
+}

@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <link rel="stylesheet" href="./src/style.css" >
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/icon.svg" type="image/svg">
+    <meta name="description" content="Hi, I'm Stefano! I'm a 19 y/o computer science student and a freelancer in web developing. Let's check my full portfolio...">
+
+    <title>Stefano Quaggio</title>
+</head>
+<body>
+    <div class="extern-container">
+        <img class="top-left-blue bg" src="./components/top-left-blue.svg" alt="top-left-blue" />
+        <img class="top-right-blue bg" src="./components/top-right-blue.svg" alt="top-right-blue" />
+        <nav class="navbar">
+            <div class="wrapper-navbar-logo">
+                <p class="logo">QS</p>
+            </div>
+            <div class="wrapper-navbar-buttons">
+                <a href="#home">HOME</a>
+                <a href="#about">ABOUT</a>
+                <a href="#skills">SKILLS</a>
+                <a href="#projects">PROJECTS</a>
+                <a href="#contact">CONTACT ME</a>
+            </div>
+        </nav>
+        <section id="home">
+            <div class="home-info">
+                <p class="hello"><span class="white">Hi,</span><br/>I'm Stefano<span class="red">.</span></p>
+                <p class="sub-hello">I'm a Junior Web Developer</p>
+            </div>
+            <img class="avatar" src="./images/avatar.svg" alt="avatar">
+        </section>
+
+        <img class="circle-home-blue bg" src="./components/circle-home-blue.svg" alt="circle-home-blue" />
+        <img class="circle-home-white bg" src="./components/circle-home-white.svg" alt="circle-home-white" />
+
+        <div class="wrapper-arrows">
+            <a href="#about">
+                <img class="arrows-down" src="./components/arrows-down.svg" alt="arrows-down">
+            </a>
+        </div>
+
+        <img class="triangle bg" src="./components/triangle.svg" alt="triangle" />
+        <img class="triangle-skills bg" src="./components/triangle-skills.svg" alt="triangle-skills" />
+        <section id="about">
+            <div class="about-desc">
+                <p class="title">About me<span style="color:#FFBB00">.</span></p>
+                <p class="subtitle">
+                    I'm a 20 y/o student of computer science at <a class="external-link" href="https://www.unimib.it/" target="_blank">Milano-Bicocca university🎓</a>.
+                    I'm trying to learn more and more new things about the front-end development part, creating small projects for me and my friends.
+                </p>
+            </div>
+            <div class="wrapper-card">
+                <div class="card-about card-left ">
+                    <div class="wrapper-img-about">
+                        <img src="./images/app-unscreen.gif" alt="app">
+                    </div>
+                    <div class="wrapper-desc-about">
+                        <p class="card-title">Mobile app</p>
+                        <p class="card-desc">
+                            I am learning, as a self-taught, the
+                            build of android apps, with the
+                            use of React Native, Firebase and Redux.
+                        </p>
+                    </div>
+                </div>
+                <div class="card-about card-center">
+                    <div class="wrapper-img-about">
+                        <img src="./images/web1.gif" alt="web">
+                    </div>
+                    <div class="wrapper-desc-about">
+                        <p class="card-title">Website</p>
+                        <p class="card-desc">
+                            As a freelancer, I'm trying
+                            to do my best helping people
+                            who need cheap websites.  
+                        </p>
+                    </div>
+                </div>
+                <div class="card-about card-right ">
+                    <div class="wrapper-img-about">
+                        <img src="./images/prova.gif" alt="future">
+                    </div>
+                    <div class="wrapper-desc-about">
+                        <p class="card-title">Future</p>
+                        <p class="card-desc">
+                            For the future, I hope to open
+                            my own startup. I always
+                            wondered to work for myself
+                            without any limitations.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <img class="circle-skills bg" src="./components/circle-skills.svg" alt="circle-skills" />
+        
+        <section id="skills">
+            <div class="wrapper-skills" id="wrapper-skills"></div>
+            <div class="right-skills">
+                <p class="title">My skills<span style="color:#22FF00">.</span></p>
+                <p class="subtitle">
+                    The percentages refer to my preparation
+                    and to <span style="color:#167BFF;font-style: italic;font-weight: 800;">what I think I know</span> about a
+                    specific language.
+                </p>
+            </div>
+        </section>
+
+        <img class="rectangle-projects bg" src="./components/rectangle-projects.svg" alt="rectangle-projects" />
+
+        <section id="projects">
+            <div class="wrapper-top-projects">
+                <div class="wrapper-info-projects">
+                    <p class="title">Projects<span style="color:#167BFF">.</span></p>
+                    <p class="subtitle">
+                        Below you will find the projects I have created.
+                        In the future I hope to significantly increase the quantity,
+                        also differentiating the type (e.g. mobile applications).
+                    </p>
+                </div>
+                <img class="phone-gif" src="./images/phone2.gif" alt="phone">
+            </div>
+            <div class="wrapper-projects">
+                <div class="card-project" onclick='window.open("https://notjustfood.altervista.org/");'>
+                    <img src="./images/njf.webp" class="project-img" />
+                    <div class="project-info">
+                        <p class="project-title">NotJustFood</p>
+                        <p class="project-desc">
+                            Blog created for two guys who
+                            want to tell their passion in
+                            cooking, between experiences
+                            with important guests and
+                            much more!
+                        </p>
+                    </div>
+                    <div class="overlay-project"></div>
+                </div>
+                <div class="card-project" onclick='window.open("https://coronavirusitaliamap.altervista.org/");'>
+                    <img src="./images/covid.webp" class="project-img" />
+                    <div class="project-info">
+                        <p class="project-title">Coronavirus Italia Map</p>
+                        <p class="project-desc">
+                            <span style="text-decoration: underline;font-style: italic;">Winner of the 2020 download
+                            innovation contest "GF. Marilli
+                            award"</span>, it is a website on the
+                            situation of COVID-19 within the
+                            Italian provinces and regions.
+                        </p>
+                    </div>
+                    <div class="overlay-project"></div>
+                </div>
+                <div class="card-project" style="display: none;">
+                    <div class="wrapper-coming-soon">
+                        <img src="./images/lock.png" class="coming-soon" />
+                        <p>Coming soon...</p>
+                    </div>                
+                </div>
+            </div>
+        </section>
+
+        <img class="circle-contact-blue bg" src="./components/circle-home-blue.svg" alt="circle-contact-blue" />
+
+        <section id="contact">
+            <p class="title">Contact me<span style="color:#F700FF">.</span></p>
+            <p class="subtitle">
+                If you need to contact me, feel free to send me an email and take a look at my
+                Linkedin or Github account...
+            </p>
+            <div class="wrapper-icons">
+                <img src="./images/mail.svg" onclick='window.open("https://mail.google.com/mail/?view=cm&fs=1&to=stefanoquaggio28@gmail.com")' alt="mail">
+                <img src="./images/linkedin.svg" onclick='window.open("https://www.linkedin.com/in/stefano-quaggio-9a57a01b3/")' alt="linkedin">
+                <img src="./images/github.svg" onclick='window.open("https://github.com/steq28/")' alt="github">
+            </div>
+        </section>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./src/script.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(window).scroll(function(){
+                var scroll = $(window).scrollTop();
+
+                if (scroll > 50) {
+                    $("nav").addClass("nav-solid");
+                }else{
+                    $("nav").removeClass("nav-solid");
+                }
+
+                $('section').each(function(i) {
+                    if ($(this).position().top - (window.innerWidth*0.25)<= scroll ) {
+                        $('.wrapper-navbar-buttons a.button-navbar-active').removeClass('button-navbar-active');
+                        $('.wrapper-navbar-buttons a').eq(i).addClass('button-navbar-active');
+                    }
+                });
+            }).scroll();
+        })
+    </script>
+</body>
+
+</html>
