@@ -315,12 +315,25 @@ body {
   text-align: center;
 }
 
-.sub-hello {
+.container-typewriter{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  
+}
+
+.sub-hello{
   font-family: "Mont-Light";
   font-size: 5vw;
-  line-height: 8vw;
+  /*line-height: 8vw;*/
   text-align: center;
   text-shadow: 0.1vh 0.1vh 0.1vh rgba(255, 255, 255, 0.9);
+}
+
+.txt-rotate{
+  font-family: "Mont-Medium";
+  
 }
 
 .avatar {
