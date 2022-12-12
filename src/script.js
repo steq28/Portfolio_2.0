@@ -1,3 +1,7 @@
+function closeDiv() {
+	document.getElementById("announcement").style.display = "none";
+}
+
 var TxtRotate = function (el, toRotate, period) {
 	this.toRotate = toRotate;
 	this.el = el;
